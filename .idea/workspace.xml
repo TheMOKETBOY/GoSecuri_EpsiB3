@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +40,7 @@
   <component name="ProjectId" id="1T1qGXm1WrDVpDKpP4gabPp8aAd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -144,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572637853181</updated>
       <workItem from="1572637857923" duration="447000" />
-      <workItem from="1572638350932" duration="6915000" />
+      <workItem from="1572638350932" duration="7242000" />
     </task>
     <servers />
   </component>
