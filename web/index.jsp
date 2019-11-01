@@ -12,12 +12,8 @@
   </head>
   <body>
   Hello World !
-  Firebase is ok ! 
-
-
-
-
-
+  Firebase is ok !
+  <p> Bonne nuit</p>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="/__/firebase/7.2.3/firebase-app.js"></script>
 
