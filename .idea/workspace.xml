@@ -6,11 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0529e3c2-a4d8-4f2c-a801-bc50efd821fc" name="Default Changelist" comment="Add App.js">
-      <change afterPath="$PROJECT_DIR$/web/js/App.js" afterDir="false" />
+    <list default="true" id="0529e3c2-a4d8-4f2c-a801-bc50efd821fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,8 +177,16 @@
       <workItem from="1572638350932" duration="7473000" />
       <workItem from="1574110829690" duration="20000" />
       <workItem from="1574412113142" duration="1485000" />
-      <workItem from="1577553871513" duration="896000" />
+      <workItem from="1577553871513" duration="1294000" />
     </task>
+    <task id="LOCAL-00001" summary="Add App.js&#10;Add Face Dectection IHM  in index.html">
+      <created>1577555054924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577555054924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add App.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add App.js" />
+    <MESSAGE value="Add App.js&#10;Add Face Dectection IHM  in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add App.js&#10;Add Face Dectection IHM  in index.html" />
   </component>
 </project>
