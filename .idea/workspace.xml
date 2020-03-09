@@ -47,6 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -155,7 +156,7 @@
       <workItem from="1574412113142" duration="3598000" />
       <workItem from="1583765776128" duration="1844000" />
       <workItem from="1583768505366" duration="371000" />
-      <workItem from="1583768920624" duration="311000" />
+      <workItem from="1583768920624" duration="3043000" />
     </task>
     <servers />
   </component>
