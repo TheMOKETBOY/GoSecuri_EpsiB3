@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0529e3c2-a4d8-4f2c-a801-bc50efd821fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +154,7 @@
       <workItem from="1574412113142" duration="3598000" />
       <workItem from="1583765776128" duration="1844000" />
       <workItem from="1583768505366" duration="371000" />
-      <workItem from="1583768920624" duration="3043000" />
+      <workItem from="1583768920624" duration="4071000" />
     </task>
     <servers />
   </component>
