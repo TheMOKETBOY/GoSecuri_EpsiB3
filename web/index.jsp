@@ -11,9 +11,12 @@
     <title>Projet Mspr</title>
   </head>
   <body>
-  Hello World !
-  Firebase is ok !
-  <p> Bonne nuit</p>
+
+
+  <input href="equipement.html"type="button" value="Identification">
+
+
+
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="/__/firebase/7.2.3/firebase-app.js"></script>
 
