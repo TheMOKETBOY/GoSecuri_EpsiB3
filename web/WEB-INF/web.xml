@@ -7,7 +7,11 @@
 
     <servlet>
         <servlet-name>Auth</servlet-name>
-        <servlet-class>com.gosecuri_epsib3.servlets.AuthFacialServlet</servlet-class>
+        <servlet-class>com.gosecuri_epsib3.servlets.Auth.AuthFacialServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.gosecuri_epsib3.servlets.Auth.LogoutServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Home</servlet-name>
@@ -20,6 +24,10 @@
     <servlet-mapping>
         <servlet-name>Auth</servlet-name>
         <url-pattern>/Auth</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
     </servlet-mapping>
 
 </web-app>
