@@ -1,0 +1,14 @@
+{
+  "name": "projet1",
+  "version": "1.0.0",
+  "description": "Projet de d�mo pour le tutorial TJS",
+  "main": "ok.js",
+  "scripts": {
+    "start": "git clone https://github.com/TheMOKETBOY/GoSecuri_EpsiB3.git && cd GoSecuri_EpsiB3 && npm install -g firebase-tools && firebase login && firebase deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

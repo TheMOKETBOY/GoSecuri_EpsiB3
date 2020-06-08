@@ -1,8 +1,19 @@
 package com.gosecuri_epsib3.beans;
 
+
+import javax.servlet.http.HttpServletRequest;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 public  class DAO {
+
+    public DAO() {
+
+    }
+
+
 
     public static ArrayList<Equipement>getEquipements(){
         ArrayList<Equipement> equipements = new ArrayList<Equipement>();
@@ -14,6 +25,25 @@ public  class DAO {
         equipements.add(new Equipement("LAMPE_TORCHE","Lampe Torche"));
         return equipements;
 
+    }
+    //Jeux de test
+    public static ArrayList<User> getUsers() throws IOException, ExecutionException, InterruptedException {
+        ArrayList<User>users = new ArrayList<User>();
+
+
+
+
+        return users;
+
+    }
+
+    public static String getValeurChamp(HttpServletRequest request, String nomChamp ) {
+        String valeur = request.getParameter( nomChamp );
+        if ( valeur == null || valeur.trim().length() == 0 ) {
+            return null;
+        } else {
+            return valeur;
+        }
     }
 
 }

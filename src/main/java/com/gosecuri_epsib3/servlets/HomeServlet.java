@@ -20,7 +20,7 @@ public class HomeServlet extends HttpServlet {
         HttpSession session = request.getSession();
 
         if ( session.getAttribute( "AUTH" ) == null ) {
-            response.sendRedirect("/javaMspr_war_exploded/Auth");
+            response.sendRedirect("/javaMspr_war_exploded/Auth/login");
 
         }else{
             this.getServletContext().getRequestDispatcher("/WEB-INF/Home.jsp").forward(request, response);
@@ -36,7 +36,7 @@ public class HomeServlet extends HttpServlet {
         HttpSession session = request.getSession();
 
         if ( session.getAttribute( "AUTH" ) == null ) {
-            response.sendRedirect("/javaMspr_war_exploded/Auth");
+            response.sendRedirect("/javaMspr_war_exploded/Auth/login");
 
         }else{
             response.setContentType("text/html");

@@ -5,13 +5,55 @@
       <artifact name="javaMspr:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:RecoFacial" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0529e3c2-a4d8-4f2c-a801-bc50efd821fc" name="Default Changelist" comment="">
+    <list default="true" id="57bffca4-c180-46ea-93f8-00038faa8cfc" name="Default Changelist" comment="Add auth login form + Equipements form">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/beans/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/javaMspr.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/Auth/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javaMspr_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javaMspr_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaMspr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaMspr.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaMspr_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/beans/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/beans/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/AuthFacialServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/AuthServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,74 +67,67 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="HTTP Request" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="FacialReco" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="RecoFacial" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/Home.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" value="" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1T1qGXm1WrDVpDKpP4gabPp8aAd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.14450867" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\ECOLE\COURS\JAVA\GoSecuri_EpsiB3\web" />
+      <recent name="C:\DEV\JAVA\GoSecuri_EpsiB3\src\main\resources" />
+      <recent name="C:\DEV\JAVA\GoSecuri_EpsiB3\out\artifacts\javaMspr_war_exploded\WEB-INF\classes" />
+      <recent name="C:\DEV\JAVA\GoSecuri_EpsiB3\src\main\java" />
+      <recent name="C:\DEV\JAVA\GoSecuri_EpsiB3\web\WEB-INF" />
+      <recent name="C:\DEV\JAVA\GoSecuri_EpsiB3\out\artifacts\javaMspr_war_exploded\WEB-INF" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_231">
+  <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.1">
+    <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/javaMspr_war_exploded" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="BROWSER_ID" value="0d05f598-27b0-4e4b-97e4-2fe05554af4f" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="javaMspr:war exploded">
           <settings />
@@ -162,13 +197,42 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Heroku Deploy" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="heroku:deploy-war" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="Maven.Heroku Deploy" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0529e3c2-a4d8-4f2c-a801-bc50efd821fc" name="Default Changelist" comment="" />
+      <changelist id="57bffca4-c180-46ea-93f8-00038faa8cfc" name="Default Changelist" comment="" />
       <created>1572637853181</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -176,21 +240,39 @@
       <workItem from="1572637857923" duration="447000" />
       <workItem from="1572638350932" duration="7473000" />
       <workItem from="1574110829690" duration="20000" />
-      <workItem from="1574412113142" duration="1485000" />
-      <workItem from="1577553871513" duration="1294000" />
+      <workItem from="1574412113142" duration="3598000" />
+      <workItem from="1583765776128" duration="1844000" />
+      <workItem from="1583768505366" duration="371000" />
+      <workItem from="1583768920624" duration="4071000" />
+      <workItem from="1590509626271" duration="2541000" />
+      <workItem from="1590594750537" duration="12284000" />
+      <workItem from="1590696362379" duration="9335000" />
+      <workItem from="1590871403336" duration="1171000" />
+      <workItem from="1591447929139" duration="164000" />
+      <workItem from="1591448728479" duration="7499000" />
+      <workItem from="1591474855256" duration="45448000" />
+      <workItem from="1591603413397" duration="16575000" />
+      <workItem from="1591645450375" duration="1214000" />
     </task>
-    <task id="LOCAL-00001" summary="Add App.js&#10;Add Face Dectection IHM  in index.html">
-      <created>1577555054924</created>
+    <task id="LOCAL-00001" summary="add Servlets">
+      <created>1590753497293</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1577555054924</updated>
+      <updated>1590753497293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add auth login form + Equipements form">
+      <created>1591494627825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591494627825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -198,16 +280,195 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="RecoFacial" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add App.js" />
-    <MESSAGE value="Add App.js&#10;Add Face Dectection IHM  in index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add App.js&#10;Add Face Dectection IHM  in index.html" />
+    <MESSAGE value="add Servlets" />
+    <MESSAGE value="Add auth login form + Equipements form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add auth login form + Equipements form" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="204" key="#BuildArtifactsBeforeRunChooser" timestamp="1591625575532">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="463" y="204" key="#BuildArtifactsBeforeRunChooser/0.30.1366.738@0.30.1366.738" timestamp="1591625575532" />
+    <state x="275" y="57" key="#Deployment" timestamp="1591633380966">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="275" y="57" key="#Deployment/0.30.1366.738@0.30.1366.738" timestamp="1591633380966" />
+    <state x="568" y="262" key="#Notifications" timestamp="1590753582676">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="568" y="262" key="#Notifications/0.30.1366.738@0.30.1366.738" timestamp="1590753582676" />
+    <state x="163" y="30" key="#Project_Structure" timestamp="1591572030403">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="163" y="30" key="#Project_Structure/0.30.1366.738@0.30.1366.738" timestamp="1591572030403" />
+    <state x="486" y="188" key="#Web_Browsers" timestamp="1590597056914">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="486" y="188" key="#Web_Browsers/0.30.1366.738@0.30.1366.738" timestamp="1590597056914" />
+    <state x="413" y="154" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591452108679">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="413" y="154" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.30.1366.738@0.30.1366.738" timestamp="1591452108679" />
+    <state x="137" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591633560069">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="137" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1591633560069" />
+    <state x="446" y="201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591646665844">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="446" y="201" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1366.738@0.30.1366.738" timestamp="1591646665844" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1591571546154">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1591571546154" />
+    <state x="313" y="88" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590742046217">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="313" y="88" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1366.738@0.30.1366.738" timestamp="1590742046217" />
+    <state x="409" y="30" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1591570773209">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="409" y="30" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.30.1366.738@0.30.1366.738" timestamp="1591570773209" />
+    <state x="308" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591487798180">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="308" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1366.738@0.30.1366.738" timestamp="1591487798180" />
+    <state x="413" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591624671098">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="413" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" timestamp="1591624671098" />
+    <state x="308" y="30" key="CommitChangelistDialog2" timestamp="1591482765230">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="308" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1591482765230" />
+    <state x="463" y="154" key="FileChooserDialogImpl" timestamp="1591637458835">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="463" y="154" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1591637458835" />
+    <state x="544" y="311" key="Github.Dialog.Accounts.Choose" timestamp="1591482878879">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="544" y="311" key="Github.Dialog.Accounts.Choose/0.30.1366.738@0.30.1366.738" timestamp="1591482878879" />
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom" timestamp="1591646482763">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1591646482763" />
+    <state width="1323" height="276" key="GridCell.Tab.0.center" timestamp="1591646482763">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1591646482763" />
+    <state width="1323" height="276" key="GridCell.Tab.0.left" timestamp="1591646482762">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1591646482762" />
+    <state width="1323" height="276" key="GridCell.Tab.0.right" timestamp="1591646482763">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1591646482763" />
+    <state width="1042" height="177" key="GridCell.Tab.1.bottom" timestamp="1591645094835">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1042" height="177" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1591645094835" />
+    <state width="1042" height="177" key="GridCell.Tab.1.center" timestamp="1591645094835">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1042" height="177" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1591645094835" />
+    <state width="1042" height="177" key="GridCell.Tab.1.left" timestamp="1591645094835">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1042" height="177" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1591645094835" />
+    <state width="1042" height="177" key="GridCell.Tab.1.right" timestamp="1591645094835">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1042" height="177" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1591645094835" />
+    <state width="905" height="39" key="GridCell.Tab.2.bottom" timestamp="1591567093455">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="905" height="39" key="GridCell.Tab.2.bottom/0.30.1366.738@0.30.1366.738" timestamp="1591567093455" />
+    <state width="905" height="39" key="GridCell.Tab.2.center" timestamp="1591567093455">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="905" height="39" key="GridCell.Tab.2.center/0.30.1366.738@0.30.1366.738" timestamp="1591567093455" />
+    <state width="905" height="39" key="GridCell.Tab.2.left" timestamp="1591567093455">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="905" height="39" key="GridCell.Tab.2.left/0.30.1366.738@0.30.1366.738" timestamp="1591567093455" />
+    <state width="905" height="39" key="GridCell.Tab.2.right" timestamp="1591567093455">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="905" height="39" key="GridCell.Tab.2.right/0.30.1366.738@0.30.1366.738" timestamp="1591567093455" />
+    <state x="163" y="30" key="SettingsEditor" timestamp="1591625700865">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="163" y="30" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1591625700865" />
+    <state x="513" y="268" key="VCS.EditChangelistDialog" timestamp="1591463544661">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="513" y="268" key="VCS.EditChangelistDialog/0.30.1366.738@0.30.1366.738" timestamp="1591463544661" />
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1591494634944">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1591494634944" />
+    <state x="499" y="177" key="chooseDestDirectoryDialog" timestamp="1591453334870">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="499" y="177" key="chooseDestDirectoryDialog/0.30.1366.738@0.30.1366.738" timestamp="1591453334870" />
+    <state x="253" y="44" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1591606193091">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="253" y="44" key="com.intellij.javaee.view.ServerArtifactsDialog/0.30.1366.738@0.30.1366.738" timestamp="1591606193091" />
+    <state x="65" y="30" key="new project wizard" timestamp="1591547095469">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="65" y="30" key="new project wizard/0.30.1366.738@0.30.1366.738" timestamp="1591547095469" />
+    <state x="389" y="160" key="refactoring.ChangeSignatureDialog" timestamp="1591556889732">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="389" y="160" key="refactoring.ChangeSignatureDialog/0.30.1366.738@0.30.1366.738" timestamp="1591556889732" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/Users/Index.jsp</url>
+          <line>11</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/Users/Index.jsp</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/Users/Index.jsp</url>
+          <line>33</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
