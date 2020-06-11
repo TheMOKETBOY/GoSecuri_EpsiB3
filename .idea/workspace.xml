@@ -30,58 +30,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57bffca4-c180-46ea-93f8-00038faa8cfc" name="Default Changelist" comment="Add auth login form + Equipements form">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javaMspr_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javaMspr_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaMspr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaMspr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/AuthServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/AuthServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/Auth/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosecuri_epsib3/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/javaMspr.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/Services/FirebaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/META-INF/javaMspr.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/com/gosecuri_epsib3/Services/FirebaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gosecuriapp-1.0-SNAPSHOT/WEB-INF/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.gosecuri/gosecuriapp/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.gosecuri/gosecuriapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/war-tracker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/META-INF/javaMspr.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/Services/FirebaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/beans/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/beans/Equipement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/beans/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/servlets/Admin/ManageUsersServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/servlets/Auth/AuthServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/servlets/Auth/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/gosecuri_epsib3/servlets/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-http-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-io-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-security-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-server-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-servlet-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jetty-util-9.4.7.v20170914.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Users/Index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Users/Index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Users/Show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Users/Show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Users/newUserForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Users/newUserForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/loginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="57bffca4-c180-46ea-93f8-00038faa8cfc" name="Default Changelist" comment="Add auth login form + Equipements form" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +229,7 @@
       <workItem from="1591603413397" duration="16575000" />
       <workItem from="1591645450375" duration="4483000" />
       <workItem from="1591677763551" duration="6185000" />
-      <workItem from="1591899831553" duration="1950000" />
+      <workItem from="1591899831553" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="add Servlets">
       <created>1590753497293</created>
@@ -401,22 +350,22 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="544" y="311" key="Github.Dialog.Accounts.Choose/0.30.1366.738@0.30.1366.738" timestamp="1591482878879" />
-    <state width="1323" height="149" key="GridCell.Tab.0.bottom" timestamp="1591901661346">
+    <state width="1323" height="149" key="GridCell.Tab.0.bottom" timestamp="1591902130249">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1591901661346" />
-    <state width="1323" height="149" key="GridCell.Tab.0.center" timestamp="1591901661345">
+    <state width="1323" height="149" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1591902130249" />
+    <state width="1323" height="149" key="GridCell.Tab.0.center" timestamp="1591902130248">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1591901661345" />
-    <state width="1323" height="149" key="GridCell.Tab.0.left" timestamp="1591901661345">
+    <state width="1323" height="149" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1591902130248" />
+    <state width="1323" height="149" key="GridCell.Tab.0.left" timestamp="1591902130248">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1591901661345" />
-    <state width="1323" height="149" key="GridCell.Tab.0.right" timestamp="1591901661346">
+    <state width="1323" height="149" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1591902130248" />
+    <state width="1323" height="149" key="GridCell.Tab.0.right" timestamp="1591902130248">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1591901661346" />
+    <state width="1323" height="149" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1591902130248" />
     <state width="1042" height="177" key="GridCell.Tab.1.bottom" timestamp="1591645094835">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
@@ -469,6 +418,10 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="253" y="44" key="com.intellij.javaee.view.ServerArtifactsDialog/0.30.1366.738@0.30.1366.738" timestamp="1591606193091" />
+    <state x="449" y="290" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591902126980">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="449" y="290" key="git4idea.remote.GitConfigureRemotesDialog/0.30.1366.738@0.30.1366.738" timestamp="1591902126980" />
     <state x="65" y="30" key="new project wizard" timestamp="1591649289085">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
