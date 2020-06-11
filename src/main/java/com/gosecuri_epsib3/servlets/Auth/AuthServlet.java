@@ -64,7 +64,7 @@ public class AuthServlet extends HttpServlet {
 
         if (whiteliste.contains(login)) {
             session.setAttribute("AUTH", login);
-            response.sendRedirect("/javaMspr_war_exploded/");
+            response.sendRedirect("/");
         } else {
 
             request.setAttribute("errors", "L'utilisateur n'est pas autorisé");

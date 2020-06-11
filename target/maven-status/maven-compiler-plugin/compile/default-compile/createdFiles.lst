@@ -1,0 +1,7 @@
+com\gosecuri_epsib3\beans\User.class
+com\gosecuri_epsib3\servlets\HomeServlet.class
+com\gosecuri_epsib3\beans\DAO.class
+com\gosecuri_epsib3\servlets\Admin\ManageUsersServlet.class
+com\gosecuri_epsib3\beans\Equipement.class
+com\gosecuri_epsib3\servlets\Auth\AuthServlet.class
+com\gosecuri_epsib3\servlets\Auth\LogoutServlet.class

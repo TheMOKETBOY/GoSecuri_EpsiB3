@@ -29,7 +29,7 @@ public class ManageUsersServlet extends HttpServlet {
         HttpSession session = request.getSession();
 
         if (session.getAttribute("AUTH") == null) {
-            response.sendRedirect("/javaMspr_war_exploded/Auth/login");
+            response.sendRedirect("/Auth/login");
 
         } else {
             String action = request.getPathInfo();

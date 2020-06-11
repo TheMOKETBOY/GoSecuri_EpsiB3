@@ -23,6 +23,6 @@ public class LogoutServlet extends HomeServlet {
 
 
         }
-        response.sendRedirect("/javaMspr_war_exploded/");
+        response.sendRedirect("/");
     }
 }
