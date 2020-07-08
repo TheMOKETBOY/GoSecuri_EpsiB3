@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaMspr.iml" filepath="$PROJECT_DIR$/javaMspr.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionnaire_equipement.iml" filepath="$PROJECT_DIR$/gestionnaire_equipement.iml" />
     </modules>
   </component>
 </project>

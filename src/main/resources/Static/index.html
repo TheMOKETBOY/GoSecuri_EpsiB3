@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Display Webcam Stream</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+</head>
+<body>
+<header id="header">
+    <div style="text-align: center">
+        <a href="accueil"><img src="img/logo.png" alt="Logo Go Securi"
+                               height="122px" width="150px"/></a>
+    </div>
+</header>
+
+<h2>Presentez-vous face à la camera</h2>
+
+<div class="center-div-cam">
+
+
+
+    <fieldset>
+        <!-- Espace de prise de vue webcam -->
+        <div class="col-md-6">
+            <video autoplay="true" id="videoElement"></video>
+            <div id="vid-canvas" style="display: none"></div>
+            <button id="identify" style="    color: #fff !important;
+    background-color: #379EC1;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    outline: medium none;
+    padding: 0 10px !important;
+    margin-bottom: 10px !important;
+    box-sizing: border-box;
+    -webkit-appearance: none;">Identify</button>
+        </div>
+        <form>
+            <input class="form-control" id="fromimg">
+            <button id="identifyfromimg" style="color: #fff !important;
+    background-color: #379EC1;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    outline: medium none;
+    padding: 0 10px !important;
+    margin-bottom: 10px !important;
+    box-sizing: border-box;
+    -webkit-appearance: none;">Identify from img 64 </button>
+        </form>
+    </fieldset>
+    <div class="col-md-6">
+
+        <table class="table" >
+            <thead>
+            <tr>
+                <th scope="col">Visage</th>
+                <th scope="col">Ientity</th>
+            </tr>
+            </thead>
+            <tbody id="faces">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-6">
+            <video autoplay="true" id="videoElement"></video>
+            <div id="vid-canvas" style="display: none"></div>
+            <button id="identify">Identify</button>
+            <input class="form-control" id="fromimg">
+            <button id="identifyfromimg">Identify from img 64 </button>
+
+        </div> -->
+</div>
+
+
+<script>
+    var video = document.querySelector("#videoElement");
+    var btn_identify = document.querySelector("#identify")
+    var btn_identifyfromimg = document.querySelector("#identifyfromimg")
+    var canvas =  document.querySelector("#vid-canvas")
+    if (navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+
+
+                video.addEventListener('canplay', function(ev){
+                    if (!streaming) {
+                        height = video.videoHeight / (video.videoWidth/width);
+
+                        video.setAttribute('width', width);
+                        video.setAttribute('height', height);
+                        canvas.setAttribute('width', width);
+                        canvas.setAttribute('height', height);
+                        streaming = true;
+                    }
+                }, false);
+
+
+                video.srcObject = stream;
+                btn_identify.addEventListener("click", function(){
+                    // Create snapshot from video
+                    var draw = document.createElement("canvas");
+
+                    var imgwidth = video.videoWidth / 2;
+                    var imgHeight = video.videoHeight / 2;
+                    draw.width = imgwidth
+                    draw.height = imgHeight
+                    var context2D = draw.getContext("2d");
+                    context2D.drawImage(video, 0, 0, imgwidth, imgHeight);
+                    // Put into canvas container
+                    canvas.innerHTML = "";
+                    canvas.appendChild(draw);
+                    identify(canvas)
+                });
+
+                btn_identifyfromimg.addEventListener("click", function(){
+                    // Create snapshot from video
+                    var draw = document.createElement("canvas");
+
+                    var imgwidth = video.videoWidth / 2;
+                    var imgHeight = video.videoHeight / 2;
+                    draw.width = imgwidth
+                    draw.height = imgHeight
+                    var context2D = draw.getContext("2d");
+                    context2D.drawImage(video, 0, 0, imgwidth, imgHeight);
+                    // Put into canvas container
+                    canvas.innerHTML = "";
+                    canvas.appendChild(draw);
+                    identifyFromImg()
+                });
+
+
+
+            })
+            .catch(function (err0r) {
+                console.log("Something went wrong!");
+            });
+    }
+    
+    function showfaces(faces) {
+        faces.forEach(function (faceResult) {
+
+console.log(faceResult.visage)
+
+
+
+
+            var tr  = document.createElement("tr")
+
+
+
+
+           var tdvisage =  document.createElement("td");
+           var tdidentity =  document.createElement("td");
+           var tdinput =  document.createElement("td");
+
+
+
+
+
+
+            var img = document.createElement('img');
+            img.src = "data:image/png;base64,"+faceResult.visage;
+
+            var input = document.createElement('input');
+            input.value = faceResult.visage;
+            input.className ="form-control";
+            tdinput.append(input);
+
+            var faceblock =  $("#faces");
+
+         console.log(faceblock)
+
+
+                tdvisage.append(img)
+
+            console.log(tdvisage)
+            tdidentity.innerText = faceResult.identity
+            tr.append(tdvisage)
+            tr.append(tdidentity)
+            tr.append(tdinput)
+            faceblock.prepend(tr)
+
+        });
+
+
+    }
+    function identifyFromImg() {
+
+        var imgbase64 = document.querySelector("#fromimg").value
+        imgbase64 = imgbase64.replace('data:', '')
+            .replace(/^.+,/, '');
+
+        fetch("/detectedfaces",
+            {
+                body:  imgbase64,
+                headers: { "Content-Type": "application/octet-stream" },
+
+
+                method: "post"
+            })  .then(response => response.json())
+            .then(data => showfaces(data)
+            );
+    }
+    function identify() {
+
+        var images = [];
+        for (var i = 0; i< 5;i++){
+
+
+            var draw = document.createElement("canvas");
+
+            var imgwidth = video.videoWidth / 2;
+            var imgHeight = video.videoHeight / 2;
+            draw.width = imgwidth
+            draw.height = imgHeight
+            var context2D = draw.getContext("2d");
+            context2D.drawImage(video, 0, 0, imgwidth, imgHeight);
+            // Put into canvas container
+            canvas.innerHTML = "";
+            canvas.appendChild(draw);
+            var imgbase64 = document.querySelector("canvas").toDataURL();
+            imgbase64 = imgbase64.replace('data:', '')
+                .replace(/^.+,/, '');
+
+            images.push(imgbase64);
+        }
+
+        fetch("/detectedfaces",
+            {
+                body:  JSON.stringify(images),
+                headers: { "Content-Type": "application/json" },
+
+
+                method: "post"
+            })  .then(response => response.json())
+            .then(data => showfaces(data)
+            );
+    }
+</script>
+</body>
+</html>
+</html>

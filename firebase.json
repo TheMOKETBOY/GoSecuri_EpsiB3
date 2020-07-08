@@ -12,7 +12,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.jsp"
+        "destination": "/index.html"
       }
     ]
   }
