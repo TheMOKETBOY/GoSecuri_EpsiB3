@@ -21,7 +21,7 @@ public class TestController {
     FaceAuthManager faceAuthManager;
 
 
-    @RequestMapping(value = "/facesdb", method = RequestMethod.GET)
+    @RequestMapping(value = "/?facesdb", method = RequestMethod.GET)
     public String getUsers(@RequestParam(value = "season", defaultValue = "1") String season) throws Exception {
         faceAuthManager.startTrainning();
 
